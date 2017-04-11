@@ -11,9 +11,9 @@ background(204);
 ellipseMode(RADIUS);
 // Neck
 stroke(102);
-line(x+2, y-bodyHeight, x+2, ny);
-line(x+12, y-bodyHeight, x+12, ny);
-line(x+22, y-bodyHeight, x+22, ny);
+line(x-40, y-bodyHeight, x, ny);
+line(x, y-bodyHeight, x-1, ny);
+line(x+40, y-bodyHeight, x+1, ny);
 // Antennae
 line(x+12, ny, x-18, ny-43);
 line(x+12, ny, x+42, ny-99);
